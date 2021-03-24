@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+header {
+  background-color: rgb(255, 255, 255);
+  padding: 20px 0;
+}
+body {
+  background-color: #fffefe;
+  height: 100vh;
+  padding: 2rem 3rem;
+}
+.center {
+  padding: 0 2%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu {
+  text-align: right;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.menu a {
+  color: #247ba0;
+  font-size: 15px;
+  text-decoration: none;
+  margin-right: 45px;
+  transition: color 0.2s ease-in;
+  font-weight: 600;
+}
+.button a:hover,
+.button a:focus {
+  color: #fffefe;
+}
+.button {
+  padding: 20px;
+}
+
+/* Body */
+.container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  color: #04151f;
+}
+.container section:nth-child(1) {
+  height: 50rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.container section:nth-child(1) {
+  height: 50rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.container section:nth-child(1) span {
+  font-size: 1.2rem;
+  color: #04151f;
+  line-height: 1.5;
+}
+.container section h1 {
+  font-size: 2.5rem;
+  width: calc(100% - 220px);
+  font-weight: 400;
+  line-height: 1.2;
+}
+.container section h1 > strong {
+  font-weight: 700;
+}
+.container section:nth-child(1) hr {
+  width: 12%;
+  margin: 2rem 0;
+}
+.container section:nth-child(2) img {
+  width: 95%;
+}
+#button1 {
+  color: #247ba0;
+  background-color: #fffefe;
+  min-width: 100px;
+  padding: 12px 15px;
+  border: 2px solid #247ba0;
+  border-radius: 25px;
+}
+#button2 {
+  color: #fffefe;
+  background-color: #247ba0;
+  min-width: 100px;
+  padding: 12px 15px;
+  border: 2px solid #fffefe;
+  border-radius: 25px;
+}
+#button3 {
+  color: #fffefe;
+  background-color: #c44900;
+  min-width: 10px;
+  width: 150px;
+  padding: 6px 12px;
+  border: 2px solid #fffefe;
+  border-radius: 13px;
+  margin-top: 2rem;
+  height: 3rem;
+}
+.container-button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
